@@ -33,7 +33,7 @@ function App() {
   return (
     <div className="App">
       <h1>ravenous</h1>
-      <SearchBar search={searchYelp}/>
+      <SearchBar searchYelp={searchYelp}/>
       <BusinessList businesses={businesses}/>
     </div>
   );
